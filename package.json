@@ -1,0 +1,15 @@
+{
+  "name": "control-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CRUD de clientes com Node.js e SQLite, sem dependencias externas.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  }
+}
